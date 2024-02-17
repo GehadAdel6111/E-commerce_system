@@ -1,0 +1,68 @@
+.loginSignUp{
+    width: 100%;
+    height: 100vh;
+    background: #fce3fe;
+    padding-top: 100px;
+}
+.loginSignUpContainer{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.loginSignUpContainer h1{
+    margin: 20px 0px;
+}
+.loginSignUpFields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.loginSignUpFields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.loginSignUpContainer button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: linear-gradient(90deg, rgba(49,138,204,1) 1%, rgba(85,192,205,1) 100%);
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px ;
+    font-weight: 500;
+}
+.loginSignUpLogin{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginSignUpLogin span{
+    color: rgb(106, 106, 206);
+    font-weight: 600;
+}
+.loginSignUpAgree{
+    display: flex;align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer{
+    display: none;
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .loginSignUp{
+        height: 170vh;
+    }
+}

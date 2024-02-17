@@ -1,0 +1,122 @@
+.productDisplay{
+    display: flex;
+    margin: 0px 170px;
+}
+.productDisplayLeft{
+    display: flex;
+    gap: 17px;
+}
+.productDisplayImgList{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.productDisplayImgList img{
+    height: 163px;
+}
+.productDisplayMainImg{
+    width: 586px;
+    height: 700px;
+}
+.productDisplayRight{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.productDisplayRight h1{
+    color: #3d3d3d;
+    font-size: 30px;
+    font-weight: 700;
+}
+.productDisplayRightStars{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+.productDisplayRightPrices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.productDiplayRightPriceOld{
+    color: #818181;
+    text-decoration: line-through;
+}
+.productDiplayRightPriceNew{
+    color: rgb(106, 106, 206);
+}
+.productDisplayRightSize h1{
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+.productDisplayRightSizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+.productDisplayRightSizes div{
+    padding: 18px 25px;
+    background: #fbfbfb;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+}
+.productDisplayRight button{
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(90deg, rgba(49,138,204,1) 1%, rgba(85,192,205,1) 100%);
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.productDisplayRightCategory{
+    margin-top: 10px;
+}
+.productDisplayRightCategory span{
+    font-weight: 600;
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .productDisplayImgList img{
+        height: 103px;
+    }
+    .productDisplayMainImg {
+        width: 412px;
+        height: 460px;
+    }
+    .productDisplay{
+        margin: 0px 90px;
+    }
+    .productDisplayRight{
+        margin: 0px 40px;
+    }
+    .productDisplayRight h1{
+        font-size: 20px;
+    }
+    .productDisplayRightPrices{
+        margin: 20px 0px;
+        font-size: 18px;
+    }
+    .productDisplayRightDescribtion{
+        padding-right: 50px;
+    }
+    .productDisplayRightSize h1{
+        margin-top: 20px;
+    }
+    .productDisplayRightSizes{
+        margin: 15px;
+    }
+    .productDisplayRightSizes div{
+        padding: 15px 20px;
+    }
+}
